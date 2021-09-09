@@ -1,0 +1,21 @@
+name: cuckoo-nb
+channels:
+  - conda-forge
+  - bioconda
+  - kdm801
+dependencies:
+  - python
+  - ncdu
+  - pandoc
+  - git-annex
+  - pynvim
+  - r-tidyverse
+  - r-rmarkdown
+  - r-foreach
+  - bcftools
+  - samtools
+  - mosdepth
+  - bedtools
+  - pip
+  - pip:
+    - radsim

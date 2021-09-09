@@ -1,0 +1,9 @@
+* annex.largefiles=largerthan=100kb
+*.sh annex.largefiles=nothing
+*.txt annex.largefiles=nothing
+*.R annex.largefiles=nothing
+*.py annex.largefiles=nothing
+*.ipynb annex.largefiles=largerthan=10Mb
+data/** annex.largefiles=anything
+rawdata/** annex.largefiles=anything
+notebook/data/** annex.largefiles=anything
